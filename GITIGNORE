@@ -1,0 +1,43 @@
+# Ignorar arquivos SQL de backup e dumps
+*.sql
+*.sql.gz
+
+# Ignorar arquivos de log
+*.log
+
+# Ignorar arquivos temporários e de backup
+*.bak
+*.tmp
+*.swp
+
+# Ignorar arquivos de configuração local
+config/
+
+# Ignorar diretórios de cache
+cache/
+tmp/
+
+# Ignorar arquivos específicos de IDEs e editores de texto
+# Eclipse
+.project
+.classpath
+.settings/
+
+# IntelliJ IDEA
+.idea/
+*.iml
+
+# Visual Studio Code
+.vscode/
+
+# Arquivos de sistema
+.DS_Store
+Thumbs.db
+
+# Ignorar arquivos de ambiente virtual Python
+venv/
+env/
+
+# Ignorar arquivos de build
+build/
+dist/
